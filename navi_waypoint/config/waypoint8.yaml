@@ -1,0 +1,43 @@
+waypoints:
+  # - name: name1
+  #   frame_id: map
+  #   pose:
+  #     position:
+  #       x: 1.27139849981
+  #       y: 3.86690661394
+  #       z: 0.0
+  #     angle:
+  #       yaw: -1.29884823654
+  # - name: name2
+  #   frame_id: map
+  #   pose:
+  #     position:
+  #       x: 3.51972002022
+  #       y: 3.91269051418
+  #       z: 0.0
+  #     angle:
+  #       yaw: 170.732500633
+  - name: name1
+    frame_id: map
+    pose:
+      position:
+        x: 0.445566622231
+        y: 2.78779919977
+        z: 0.0
+      angle:
+        yaw: -87.6781012283
+  - name: name2
+    frame_id: map
+    pose:
+      position:
+        x: 0.439585036219
+        y: 1.27426940863
+        z: 0.0
+      angle:
+        yaw: 90.4610903787
+trajectories:
+  - name: Traj1
+    waypoints:
+    - name1
+    - name2
+

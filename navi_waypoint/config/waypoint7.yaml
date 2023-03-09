@@ -1,0 +1,26 @@
+waypoints:
+  - name: point1
+    frame_id: map
+    pose:
+      position:
+        x: 1.27139849981
+        y: 3.86690661394
+        z: 0.0
+      angle:
+        yaw: -1.29884823654
+  - name: point2
+    frame_id: map
+    pose:
+      position:
+        x: 3.51972002022
+        y: 3.91269051418
+        z: 0.0
+      angle:
+        yaw: 170.732500633
+
+trajectories:
+  - name: goto_pos1
+    waypoints:
+    - point1
+    - point2
+    
